@@ -21,6 +21,7 @@ public class AlumnoController {
 
     @GetMapping("/frmMantAlumnos")
     public String frmMantAlumnos(Model model){
+//        TODO: Esta linea da error en la carga de la data y rompe la vista error con el ORM
 //        model.addAttribute("listaAlumnos", alumnoService.listarAlumnos());
         return "Alumnos/frmMantAlumnos";
     }
